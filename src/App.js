@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header/Header';
+import Doctors from './Doctors/Doctors';
 
 function App() {
   return (
     <div className="App">
-      <h1>Shahin Ahmed</h1>
+      <Header></Header>
+      <Doctors></Doctors>
     </div>
   );
 }

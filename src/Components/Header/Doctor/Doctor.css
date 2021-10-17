@@ -1,0 +1,15 @@
+.image{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+}
+.card-style{
+    color: rgb(99, 96, 96);
+    background: rgb(194, 194, 194, .5);
+}
+.add-btn{
+    background: rgb(248, 86, 135);
+    color: white;
+}
