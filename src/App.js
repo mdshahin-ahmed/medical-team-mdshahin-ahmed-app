@@ -7,7 +7,9 @@ import Doctors from './Components/Doctors/Doctors';
 function App() {
   return (
     <div className="App">
+      {/* call header components  */}
       <Header></Header>  
+      {/* call doctor components  */}
       <Doctors></Doctors>    
     </div>
   );

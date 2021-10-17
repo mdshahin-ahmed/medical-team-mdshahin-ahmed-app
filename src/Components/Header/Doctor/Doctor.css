@@ -14,3 +14,14 @@
     background: rgb(243, 62, 116);
     color: white;
 }
+.social-icons i.fab{
+    font-size: 2rem;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.815);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.social-icons i.fab:hover{
+    transform: scale(1.3);
+    transition: all 1s;
+}

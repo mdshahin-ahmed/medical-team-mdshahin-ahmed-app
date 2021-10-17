@@ -9,12 +9,16 @@ const Cart = (props) => {
     }
     return (
         <div className="text-start cart-style">
-            <h5>Doctors Added: {cardMeals.length}</h5>      
-            <h5>Total Cost: ${total}</h5>      
+            <div className='text-center'>
+                <h5>Doctors Added: {cardMeals.length}</h5>      
+                <h5>Total Cost: ${total}</h5>
+                <h6>Added Doctor List</h6>
+                <hr style={{background:'white', height:"2px"}} />
+            </div>
             {            
                 cardMeals.map(cardMeal => <h6 key = {cardMeal.id}>{cardMeal.name}</h6>)
 
-            }            
+            }                       
         </div>
     );
 };

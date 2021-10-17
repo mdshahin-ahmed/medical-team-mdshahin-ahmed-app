@@ -1,4 +1,7 @@
 .cart-style{
     color: rgb(238, 226, 226);
     padding: 10px;
+    background: rgba(0, 0, 0, 0.699);
+    border-radius: 15px;
+    margin-right: 10px;
 }

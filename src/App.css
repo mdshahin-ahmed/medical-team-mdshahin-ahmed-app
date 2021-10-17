@@ -4,6 +4,7 @@
 }
 .App {
   text-align: center; 
+  /* style for background image  */
   background: linear-gradient(rgba(0, 0, 0, 0.692),rgba(0, 0, 0, 0.74)),url('https://image.shutterstock.com/image-photo/medical-team-banner-260nw-122094127.jpg');
   background-repeat: no-repeat;
   background-size: cover;

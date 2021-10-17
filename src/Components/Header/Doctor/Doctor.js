@@ -5,9 +5,11 @@ import { faShoppingCart} from '@fortawesome/free-solid-svg-icons';
 
 const Doctor = (props) => {
     // console.log(props.doctor);
+    // accept data with props 
     const {doctor, handleAddededDoctor} = props;
     const {name, img, specialist, language, salary, age} = props.doctor 
     const alt = "Doctor Image";
+    // store font awsome icon in a variable 
     const element = <FontAwesomeIcon icon={faShoppingCart} />
     return (
         <div>
@@ -22,6 +24,11 @@ const Doctor = (props) => {
                 </div>
                 <div>
                     <button className="btn add-btn mb-3 mt-auto w-50" onClick={() => handleAddededDoctor(doctor)}>Add Doctor {element}</button>
+                </div>
+                <div className="social-icons mb-3">
+                    <i className="fab fa-facebook-square"></i>
+                    <i className="fab fa-youtube"></i>
+                    <i className="fab fa-twitter-square"></i>
                 </div>
             </div>
         </div>
