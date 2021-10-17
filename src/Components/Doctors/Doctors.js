@@ -43,4 +43,3 @@ const Doctors = () => {
 };
 
 export default Doctors;
-// done 
