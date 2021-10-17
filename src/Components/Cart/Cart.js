@@ -17,7 +17,6 @@ const Cart = (props) => {
             </div>
             {            
                 cardMeals.map(cardMeal => <h6 key = {cardMeal.id}>{cardMeal.name}</h6>)
-
             }                       
         </div>
     );
