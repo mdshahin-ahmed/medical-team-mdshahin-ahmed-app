@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Doctor from '../Components/Header/Doctor/Doctor';
+import Doctor from '../Header/Doctor/Doctor';
 import './Doctors.css'
 
 const Doctors = () => {
@@ -16,7 +16,7 @@ const Doctors = () => {
                     doctors.map(doctor => <Doctor
                             key = {doctor.id}
                             doctor = {doctor}
-                        ></Doctor>)
+                        ></Doctor>)                        
                 }
                 
             </div>
