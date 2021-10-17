@@ -2,7 +2,7 @@
 
 This project code Link: https://github.com/ProgrammingHeroWC4/the-superhero-direction-mdshahin-ahmed
 
-This project code Link: https://wonderful-minsky-bc7eea.netlify.app/
+This project Live site Link: https://wonderful-minsky-bc7eea.netlify.app/
 
 ## The benefit of these Projects
 
