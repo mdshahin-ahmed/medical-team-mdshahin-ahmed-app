@@ -4,6 +4,10 @@
 }
 .App {
   text-align: center; 
+  background: linear-gradient(rgba(0, 0, 0, 0.692),rgba(0, 0, 0, 0.74)),url('https://image.shutterstock.com/image-photo/medical-team-banner-260nw-122094127.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .App-logo {
   height: 40vmin;
